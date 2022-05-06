@@ -1,0 +1,123 @@
+body{
+    background-color: white;
+    
+    
+    
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 1em;
+    
+}
+nav div a{
+    text-decoration: none;
+}
+nav div a:hover {
+    background-color:rgba(128, 128, 128, 0.281);
+    padding: 20px;
+    border-radius: 50px;
+    }
+    .secon a:hover{
+        background-color:rgba(248, 245, 245, 0.281);
+    padding: 10px;
+    border-radius: 50px;
+    }
+    #primer a:hover{
+        background-color:rgba(252, 247, 247, 0.281);
+    padding: 10px;
+    border-radius: 50px;
+    }
+    footer a:hover{
+        
+        background-color:rgba(15, 37, 231, 0.897);
+    padding: 10px;
+    border-radius: 60px;
+    }
+
+.sin1{
+    text-decoration: none;
+    color: black;
+}
+.sin{
+    text-decoration: none;
+    border: 1px solid white; /*anchura, estilo y color borde*/
+padding: 10px; /*espacio alrededor texto*/
+color: #ffffff; /*color texto*/
+border-radius: 50px;
+}
+#primer{
+    
+padding: 10px; /*espacio alrededor texto*/
+background-color: rgb(3, 83, 3); /*color botón*/
+color: #ffffff; /*color texto*/
+text-align: center;
+font-size: 30px;
+justify-content: center;
+}
+#primer h1{
+    font-size: 50px;
+    font-family: monospace;
+}
+#primer a{
+    color: #ffffff;
+}
+.center{
+    text-align: center;
+}
+
+#kuro{
+    padding: auto;
+    background-color: black;
+}
+#noar{
+    padding: auto;
+    border-color: black;
+    color: black;
+}
+#one{
+    
+background-color:rgb(224, 2, 39); /*color botón*/
+color: #ffffff; /*color texto*/
+text-align: center;
+width: 100%;
+
+}
+#two{
+    background-color:rgb(243, 8, 47); /*color botón*/
+color: #ffffff; /*color texto*/
+text-align: center;
+width: 100%;
+
+}
+
+
+
+.cuadros{
+    display: flex;
+    justify-content: space-around;
+}
+.cuadros img{
+    width: 100%;
+    height: fit-content;
+}
+.cuadros1{
+    width: 50%;
+    font-size: 30px;
+}
+.rectan{
+    display: flex;
+    justify-content: space-around;
+}
+.rectan img{
+    width: 100%;
+    height: fit-content;
+}
+.rectan1{
+    width: 49.5%;
+    font-size: 30px;
+}
+
+.rectan2{
+    width: 1%;
+}
